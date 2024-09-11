@@ -1,0 +1,103 @@
+/* Global CSS */
+@import 'index.css';
+
+#root {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #9b51e0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.create-order-container {
+  width: 70%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.create-order-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-order-container .input-field {
+  margin-bottom: 15px;
+}
+
+.create-order-container .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+
+.create-order-container .summary {
+  margin-top: 20px;
+}
+
+.create-order-container .payment-method {
+  margin-top: 10px;
+}
+
+.create-order-container .payment-method .ant-radio-group {
+  display: flex;
+  justify-content: center;
+}
+
+.create-order-container .action-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-order-container .action-buttons button {
+  width: 100%;
+  font-size: 16px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.create-order-container .action-buttons button:hover {
+  background-color: rgb(103, 103, 222);
+  transition: linear 0.3s;
+}
+
+.cart-section {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafcd4;
+  margin-bottom: 16px;
+}
+
+.cart-title {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart-item {
+  font-size: 14px;
+}
+
+.cart-section::-webkit-scrollbar {
+  width: 8px;
+  color: black;
+}
+
+.cart-section::-webkit-scrollbar-thumb {
+  background: rgb(161, 154, 212);
+  border-radius: 8px;
+  opacity: 0.2;
+}
